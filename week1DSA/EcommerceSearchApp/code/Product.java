@@ -1,4 +1,4 @@
-package week1DSA.EcommerceSearchApp;
+package week1DSA.EcommerceSearchApp.code;
 
 public class Product {
     int productId;

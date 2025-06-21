@@ -1,0 +1,32 @@
+1. Understand Asymptotic Notation:
+Big O notation is a mathematical representation used to describe the efficiency of an algorithm in terms of input size. It helps analyze the time and space complexity of algorithms, providing a way to compare their performance.
+
+Best-case scenario: The algorithm performs the least number of operations (e.g., finding the target element at the first position in a search).
+Average-case scenario: The algorithm performs a moderate number of operations (e.g., finding the target element somewhere in the middle).
+Worst-case scenario: The algorithm performs the maximum number of operations (e.g., searching through the entire array without finding the target).
+
+2. Setup:
+The Product class is created with attributes productId, productName, and category to facilitate searching operations.
+
+3. Implementation:
+Linear Search:
+- Linear search iterates through each element in the array to find the target.
+- Time complexity: O(n), where n is the number of elements in the array.
+
+Binary Search:
+- Binary search works on sorted arrays by dividing the search space in half at each step.
+- Time complexity: O(log n), where n is the number of elements in the array.
+
+Products are stored in an array for linear search and a sorted array for binary search.
+
+4. Analysis:
+Comparison:
+- Linear search is simpler and does not require the array to be sorted, but it is slower for large datasets.
+- Binary search is faster due to its logarithmic time complexity but requires the array to be sorted beforehand.
+
+Suitability:
+- For small datasets or unsorted arrays, linear search is more suitable due to its simplicity.
+- For large datasets or sorted arrays, binary search is more efficient and preferable.
+
+Conclusion:
+Binary search is generally more suitable for platforms where performance is critical and data can be pre-sorted. Linear search is better for smaller datasets or when sorting is not feasible.

@@ -1,4 +1,4 @@
-package week1DSA.EcommerceSearchApp;
+package week1DSA.EcommerceSearchApp.code;
 
 import java.util.Arrays;
 import java.util.Comparator;
