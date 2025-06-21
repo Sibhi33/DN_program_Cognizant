@@ -2,7 +2,7 @@ package week1DPP.factoryMethod_pattern.code;
 
 public class ExcelDocumentFactory extends DocumentFactory {
     @Override
-    public Document createDocument() {
+    public ExcelDocument createDocument() {
         return new ExcelDocument();
     }
 }
