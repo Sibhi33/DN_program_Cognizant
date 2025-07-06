@@ -20,7 +20,7 @@ public class DemoApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
       
-        Employee emp = new Employee("Nivetha", "IT", 75000);
+        Employee emp = new Employee("Sibhi", "Development", 75000);
         employeeService.addEmployee(emp);
         System.out.println("Employee added!");
     }
